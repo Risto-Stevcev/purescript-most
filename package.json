@@ -1,0 +1,34 @@
+{
+  "name": "purescript-most",
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-most.git"
+  },
+  "version": "0.1.0",
+  "description": "Most.js bindings for purescript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rm -rf output && rm -rf .pulp-cache",
+    "build": "pulp build",
+    "test": "pulp test"
+  },
+  "keywords": [
+    "purescript",
+    "most",
+    "stream",
+    "observable",
+    "fantasyland"
+  ],
+  "dependencies": {
+    "most": "^1.7.2"
+  },
+  "devDependencies": {
+    "pulp": "^12.0.1",
+    "purescript-psa": "^0.5.1"
+  }
+}
